@@ -9,28 +9,27 @@ var padding = {top:20, right:40, bottom:0, left:0},
             color = d3.scale.category20();//category20c()
            
         var data = [
-                    {"label":"250 Doge",  "value":1,  "question":"250 Doge"}, // padding
-                     //font-family
+                    {"label":"250 Doge",  "value":1,  "question":"250 Doge"}, 
                     {"label":"5M Shiba",  "value":3,  "question":"5M Shiba"}, //color
                     {"label":"Logitech MX Master 3", "value":10, "question":"Logitech MX Master 3"},
                     {"label":"NFT",  "value":5,  "question":"NFT!"}, //font-size
                     {"label":"Airhorn",  "value":6,  "question":"Airhorn"}, //background-color
-                   
                     {"label":"หน้ากาก 3 แพ็ค + แอลกอฮอล์",  "value":7,  "question":"หน้ากาก 3 แพ็ค + แอลกอฮอล์"}, //nesting
                     {"label":"เสื้อคลุมหน่วยสำรวจ",  "value":8,  "question":"เสื้อคลุมหน่วยสำรวจ"}, //bottom
                     {"label":"หนังสือ Utopia",  "value":9,  "question":"หนังสือ Utopia"}, //sans-serif
-                    {"label":"ถ้วยรางวัล", "value":10, "question":"ถ้วยรางวัล"},
+                    {"label":"ถ้วยรางวัล", "value":11, "question":"ถ้วยรางวัล"},
                     {"label":"250 Doge",  "value":2,  "question":"250 Doge"},
-                    {"label":"ปุ่ม enter", "value":10, "question":"ปุ่ม enter"},
-                    {"label":"แว่น thug life 20 อัน", "value":10, "question":"แว่น thug life 20 อัน"},
-                    {"label":"ลูกอมรสห่วยๆ", "value":10, "question":"ลูกอมรสห่วยๆ"},
+                    {"label":"ปุ่ม enter", "value":12, "question":"ปุ่ม enter"},
+                    {"label":"เสื้องาน", "value":21, "question":"เสื้องาน"},
+                    {"label":"แว่น thug life 20 อัน", "value":14, "question":"แว่น thug life 20 อัน"},
+                    {"label":"ลูกอมรสห่วยๆ", "value":13, "question":"ลูกอมรสห่วยๆ"},
                     {"label":"5M Shiba",  "value":4,  "question":"5M Shiba"}, //font-weight
-                    {"label":"ตะเกียบ 300 คู่", "value":10, "question":"ตะเกียบ 300 คู่"},
-                    {"label":"เชกิน้องออม", "value":10, "question":"เชกิน้องออม"},
-                    {"label":"เเมวระเบิด", "value":10, "question":"เเมวระเบิด"},
-                    {"label":"หนังสือ Utopia", "value":10, "question":"หนังสือ Utopia"},
-                    {"label":"Raspberry Pi", "value":10, "question":"Raspberry Pi"},
-                    {"label":"เสื้องาน (2 ตัว)", "value":10, "question":"เสื้องาน (2 ตัว)"}
+                    {"label":"ตะเกียบ 300 คู่", "value":15, "question":"ตะเกียบ 300 คู่"},
+                    {"label":"เชกิน้องออม", "value":18, "question":"เชกิน้องออม"},
+                    {"label":"เเมวระเบิด", "value":16, "question":"เเมวระเบิด"},
+                    {"label":"หนังสือ Utopia", "value":19, "question":"หนังสือ Utopia"},
+                    {"label":"Raspberry Pi", "value":17, "question":"Raspberry Pi"},
+                    {"label":"เสื้องาน", "value":20, "question":"เสื้องาน"}
                     
         ];
         var svg = d3.select('#chart')
