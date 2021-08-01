@@ -20,16 +20,13 @@ var padding = {top:20, right:40, bottom:0, left:0},
                     {"label":"ถ้วยรางวัล", "value":11, "question":"ถ้วยรางวัล"},
                     {"label":"250 Doge",  "value":2,  "question":"250 Doge"},
                     {"label":"ปุ่ม enter", "value":12, "question":"ปุ่ม enter"},
-                    {"label":"เสื้องาน", "value":21, "question":"เสื้องาน"},
                     {"label":"แว่น thug life 20 อัน", "value":14, "question":"แว่น thug life 20 อัน"},
                     {"label":"ลูกอมรสห่วยๆ", "value":13, "question":"ลูกอมรสห่วยๆ"},
                     {"label":"5M Shiba",  "value":4,  "question":"5M Shiba"}, //font-weight
                     {"label":"ตะเกียบ 300 คู่", "value":15, "question":"ตะเกียบ 300 คู่"},
                     {"label":"เชกิน้องออม", "value":18, "question":"เชกิน้องออม"},
                     {"label":"เเมวระเบิด", "value":16, "question":"เเมวระเบิด"},
-                    {"label":"หนังสือ Utopia", "value":19, "question":"หนังสือ Utopia"},
-                    {"label":"Raspberry Pi", "value":17, "question":"Raspberry Pi"},
-                    {"label":"เสื้องาน", "value":20, "question":"เสื้องาน"}
+                    {"label":"Raspberry Pi", "value":17, "question":"Raspberry Pi"}
                     
         ];
         var svg = d3.select('#chart')
